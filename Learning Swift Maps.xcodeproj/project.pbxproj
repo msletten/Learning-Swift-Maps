@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F9FE8D1A16C962000659D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F9FE8C1A16C962000659D8 /* AppDelegate.swift */; };
+		08F9FE901A16C962000659D8 /* Learning_Swift_Maps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08F9FE8E1A16C962000659D8 /* Learning_Swift_Maps.xcdatamodeld */; };
+		08F9FE921A16C962000659D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F9FE911A16C962000659D8 /* ViewController.swift */; };
+		08F9FE951A16C962000659D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F9FE931A16C962000659D8 /* Main.storyboard */; };
+		08F9FE971A16C963000659D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F9FE961A16C963000659D8 /* Images.xcassets */; };
+		08F9FEA31A16C963000659D8 /* Learning_Swift_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F9FEA21A16C963000659D8 /* Learning_Swift_MapsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08F9FE9D1A16C963000659D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08F9FE7F1A16C962000659D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F9FE861A16C962000659D8;
+			remoteInfo = "Learning Swift Maps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F9FE871A16C962000659D8 /* Learning Swift Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Swift Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F9FE8B1A16C962000659D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F9FE8C1A16C962000659D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08F9FE8F1A16C962000659D8 /* Learning_Swift_Maps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learning_Swift_Maps.xcdatamodel; sourceTree = "<group>"; };
+		08F9FE911A16C962000659D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08F9FE941A16C962000659D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F9FE961A16C963000659D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08F9FE9C1A16C963000659D8 /* Learning Swift MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning Swift MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F9FEA11A16C963000659D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F9FEA21A16C963000659D8 /* Learning_Swift_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_Swift_MapsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F9FE841A16C962000659D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F9FE991A16C963000659D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F9FE7E1A16C962000659D8 = {
+			isa = PBXGroup;
+			children = (
+				08F9FE891A16C962000659D8 /* Learning Swift Maps */,
+				08F9FE9F1A16C963000659D8 /* Learning Swift MapsTests */,
+				08F9FE881A16C962000659D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F9FE881A16C962000659D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F9FE871A16C962000659D8 /* Learning Swift Maps.app */,
+				08F9FE9C1A16C963000659D8 /* Learning Swift MapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F9FE891A16C962000659D8 /* Learning Swift Maps */ = {
+			isa = PBXGroup;
+			children = (
+				08F9FE8C1A16C962000659D8 /* AppDelegate.swift */,
+				08F9FE911A16C962000659D8 /* ViewController.swift */,
+				08F9FE931A16C962000659D8 /* Main.storyboard */,
+				08F9FE961A16C963000659D8 /* Images.xcassets */,
+				08F9FE8E1A16C962000659D8 /* Learning_Swift_Maps.xcdatamodeld */,
+				08F9FE8A1A16C962000659D8 /* Supporting Files */,
+			);
+			path = "Learning Swift Maps";
+			sourceTree = "<group>";
+		};
+		08F9FE8A1A16C962000659D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F9FE8B1A16C962000659D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08F9FE9F1A16C963000659D8 /* Learning Swift MapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				08F9FEA21A16C963000659D8 /* Learning_Swift_MapsTests.swift */,
+				08F9FEA01A16C963000659D8 /* Supporting Files */,
+			);
+			path = "Learning Swift MapsTests";
+			sourceTree = "<group>";
+		};
+		08F9FEA01A16C963000659D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F9FEA11A16C963000659D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F9FE861A16C962000659D8 /* Learning Swift Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F9FEA61A16C963000659D8 /* Build configuration list for PBXNativeTarget "Learning Swift Maps" */;
+			buildPhases = (
+				08F9FE831A16C962000659D8 /* Sources */,
+				08F9FE841A16C962000659D8 /* Frameworks */,
+				08F9FE851A16C962000659D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning Swift Maps";
+			productName = "Learning Swift Maps";
+			productReference = 08F9FE871A16C962000659D8 /* Learning Swift Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08F9FE9B1A16C963000659D8 /* Learning Swift MapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F9FEA91A16C963000659D8 /* Build configuration list for PBXNativeTarget "Learning Swift MapsTests" */;
+			buildPhases = (
+				08F9FE981A16C963000659D8 /* Sources */,
+				08F9FE991A16C963000659D8 /* Frameworks */,
+				08F9FE9A1A16C963000659D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F9FE9E1A16C963000659D8 /* PBXTargetDependency */,
+			);
+			name = "Learning Swift MapsTests";
+			productName = "Learning Swift MapsTests";
+			productReference = 08F9FE9C1A16C963000659D8 /* Learning Swift MapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F9FE7F1A16C962000659D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mat Sletten";
+				TargetAttributes = {
+					08F9FE861A16C962000659D8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					08F9FE9B1A16C963000659D8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 08F9FE861A16C962000659D8;
+					};
+				};
+			};
+			buildConfigurationList = 08F9FE821A16C962000659D8 /* Build configuration list for PBXProject "Learning Swift Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08F9FE7E1A16C962000659D8;
+			productRefGroup = 08F9FE881A16C962000659D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F9FE861A16C962000659D8 /* Learning Swift Maps */,
+				08F9FE9B1A16C963000659D8 /* Learning Swift MapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F9FE851A16C962000659D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F9FE951A16C962000659D8 /* Main.storyboard in Resources */,
+				08F9FE971A16C963000659D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F9FE9A1A16C963000659D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F9FE831A16C962000659D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F9FE921A16C962000659D8 /* ViewController.swift in Sources */,
+				08F9FE901A16C962000659D8 /* Learning_Swift_Maps.xcdatamodeld in Sources */,
+				08F9FE8D1A16C962000659D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F9FE981A16C963000659D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F9FEA31A16C963000659D8 /* Learning_Swift_MapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08F9FE9E1A16C963000659D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F9FE861A16C962000659D8 /* Learning Swift Maps */;
+			targetProxy = 08F9FE9D1A16C963000659D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08F9FE931A16C962000659D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F9FE941A16C962000659D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08F9FEA41A16C963000659D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08F9FEA51A16C963000659D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08F9FEA71A16C963000659D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Learning Swift Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08F9FEA81A16C963000659D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Learning Swift Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08F9FEAA1A16C963000659D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Learning Swift MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Swift Maps.app/Learning Swift Maps";
+			};
+			name = Debug;
+		};
+		08F9FEAB1A16C963000659D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Learning Swift MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Swift Maps.app/Learning Swift Maps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F9FE821A16C962000659D8 /* Build configuration list for PBXProject "Learning Swift Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F9FEA41A16C963000659D8 /* Debug */,
+				08F9FEA51A16C963000659D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F9FEA61A16C963000659D8 /* Build configuration list for PBXNativeTarget "Learning Swift Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F9FEA71A16C963000659D8 /* Debug */,
+				08F9FEA81A16C963000659D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08F9FEA91A16C963000659D8 /* Build configuration list for PBXNativeTarget "Learning Swift MapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F9FEAA1A16C963000659D8 /* Debug */,
+				08F9FEAB1A16C963000659D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08F9FE8E1A16C962000659D8 /* Learning_Swift_Maps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08F9FE8F1A16C962000659D8 /* Learning_Swift_Maps.xcdatamodel */,
+			);
+			currentVersion = 08F9FE8F1A16C962000659D8 /* Learning_Swift_Maps.xcdatamodel */;
+			path = Learning_Swift_Maps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08F9FE7F1A16C962000659D8 /* Project object */;
+}
