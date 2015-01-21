@@ -13,6 +13,7 @@
 		08F9FE951A16C962000659D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F9FE931A16C962000659D8 /* Main.storyboard */; };
 		08F9FE971A16C963000659D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F9FE961A16C963000659D8 /* Images.xcassets */; };
 		08F9FEA31A16C963000659D8 /* Learning_Swift_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F9FEA21A16C963000659D8 /* Learning_Swift_MapsTests.swift */; };
+		08F9FEAD1A16C98B000659D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F9FEAC1A16C98B000659D8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		08F9FE9C1A16C963000659D8 /* Learning Swift MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning Swift MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F9FEA11A16C963000659D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F9FEA21A16C963000659D8 /* Learning_Swift_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_Swift_MapsTests.swift; sourceTree = "<group>"; };
+		08F9FEAC1A16C98B000659D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F9FEAD1A16C98B000659D8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		08F9FE7E1A16C962000659D8 = {
 			isa = PBXGroup;
 			children = (
+				08F9FEAC1A16C98B000659D8 /* MapKit.framework */,
 				08F9FE891A16C962000659D8 /* Learning Swift Maps */,
 				08F9FE9F1A16C963000659D8 /* Learning Swift MapsTests */,
 				08F9FE881A16C962000659D8 /* Products */,
